@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            padding:50px;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: #16161D;
+            color:white;
+        }
+        h1{
+            font-size: 50px;
+            font-family:'Edwardian Script ITC';
+            overflow:hidden;
+            text-align:center;
+        }
+        h1:before,h1:after{
+            background-color: white;
+            content:"";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+        }
+        h1:before{
+            right: 0.5em;
+            margin-left: -50%;
+        }
+        h1:after{
+            left: 0.5em;
+            margin-right: -50%;
+        }
+        h2{
+            font-size:35px;
+            padding-top: 50px;
+            font-family: 'Edwardian Script ITC';
+            text-align: center;
+        }
+        .menuimg{
+            margin-right: 40px;
+            width: 130px;
+            height: 100px;
+            border-radius: 40%;
+            border: 5px solid gold;
+            float:left;
+        }
+        a{
+            text-decoration: none;
+            color:#000000;
+            background-color: gold;
+            transition: background-color 0.5s ease, color 0.5s ease;
+        }
+        a:hover{
+            background-color: goldenrod;
+        }
+        .blk{
+            border-radius: 5px;
+            margin:auto;
+            padding-inline: 25px;
+            word-spacing: 50px;
+            font-size: large;
+            background-color: gold;
+            width:max-content;
+        }
+        .sep:not(#bt){
+            display:none;
+        }
+        .menuf{
+            padding-left: 75px;
+            font-size: 20px;
+            padding-block: 50px;
+        }
+        .menutxt{
+            font-size: 14px;
+            line-height: 25px;
+        }
+
+        
+    </style>
+    <script>
+        function openMenu(evt, Name) {
+            
+            var i, sep, links;
+
+            sep = document.getElementsByClassName("sep");
+            for (i = 0; i < sep.length; i++) {
+                sep[i].style.display = "none";
+            }
+
+            links = document.getElementsByClassName("links");
+            for (i = 0; i < links.length; i++) {
+                links[i].className = links[i].className.replace(" active", "");
+            }
+
+            document.getElementById(Name).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Menu</h1>
+    </div>
+
+    <div class="bdy">
+        <div class="blk">
+        <p>
+            <a href="#" class="links" onClick="openMenu(event, 'st')">Starters</a>
+            <a href="#" class="links" onClick="openMenu(event, 'bt')">Bhutanese</a>
+            <a href="#" class="links" onClick="openMenu(event, 'in')">Indian</a>
+            <a href="#" class="links" onClick="openMenu(event, 'jp')">Japanese</a>
+            <a href="#" class="links" onClick="openMenu(event, 'dr')">Drinks</a>
+        </p>
+        </div>
+
+        <div class="sep" id="st">
+            <p id="starters">
+            <div class="menuf"><img src="img/fries.jpg" class="menuimg">French Fries
+                <div class="menutxt">Golden, crispy hand-cut potatoes, lightly seasoned and fried to crispy perfection, served hot and salted for a classic and satisfying side dish.</div>
+            </div>
+            <div class="menuf"><img src="img/fishfin.jpg" class="menuimg">Fish Fingers
+                <div class="menutxt">Crispy and delicious fish fingers made from premium fish fillets, coated in breadcrumbs and served hot with a side of tartar sauce</div>
+            </div>
+            <div class="menuf"><img src="img/onionring.png" class="menuimg">Onion Rings
+                <div class="menutxt">Crispy, deep-fried rings of sweet onion, served hot and golden-brown for the perfect snack.</div>
+            </div>
+           
+            <div class="menuf"><img src="img/samosa.jpg" class="menuimg">Samosa
+                <div class="menutxt"> A savory and crispy triangular pastry filled with spiced vegetables or meat, served hot and fresh.</div>
+            </div>
+            <div class="menuf"><img src="img/ccp.jpg" class="menuimg">Crispy Chilli Potato
+                <div class="menutxt">Thinly sliced and crispy fried potatoes tossed in a sweet and spicy chili sauce, served hot and garnished with fresh herbs for a flavorful and crunchy.</div>
+            </div>
+            </p>
+        </div>
+
+        <div class="sep" id="bt">
+            <div class="menuf"><img src="img/ema datshi.jpg" class="menuimg">Ema Datshi
+                <div class="menutxt">Dish of spicy chili peppers and melted cheese, served with steamed rice and fresh vegetables.</div>
+            </div>
+            <div class="menuf"><img src="img/kewa datshi.jpg" class="menuimg">Kewa Datshi
+                <div class="menutxt">Dish made with potatoes and cheese, served with steamed rice and fresh vegetables.</div>
+            </div>
+            <div class="menuf"><img src="img/shakam.jpg" class="menuimg">Shakam Paa
+                <div class="menutxt">dish made with dried beef and spicy chili peppers, served with red rice and sautéed vegetables.</div>
+            </div>
+           
+            <div class="menuf"><img src="img/jashamaru.jpg" class="menuimg">Jasha Maru
+                <div class="menutxt">dish made with minced chicken, onions, garlic, and chili peppers, served with red rice and sautéed vegetables.</div>
+            </div>
+            <div class="menuf"><img src="img/phakshapaa.jpg" class="menuimg">Phaksha Paa
+                <div class="menutxt">Slow-cooked cubes of succulent pork belly, infused with aromatic garlic, ginger, onion, and a blend of traditional Bhutanese spices.</div>
+            </div>
+        </div>
+        
+        <div class="sep" id="in">
+            <div class="menuf"><img src="img/bchicken.jpg" class="menuimg">Butter Chicken
+                <div class="menutxt">A classic North Indian dish made with succulent pieces of chicken cooked in a creamy tomato-based sauce, infused with aromatic spices and finished with a dollop of butter.</div>
+            </div>
+            <div class="menuf"><img src="img/biryani.jpg" class="menuimg">Biryani
+                <div class="menutxt">A fragrant rice dish made with long-grain basmati rice, layered with tender meat or vegetables, and infused with a blend of aromatic spices.</div>
+            </div>
+            <div class="menuf"><img src="img/chanamasala.jpg" class="menuimg">Chana Masala
+                <div class="menutxt">A flavorful vegetarian dish made with chickpeas simmered in a spicy tomato-based sauce, flavored with a blend of aromatic spices.</div>
+            </div>
+            <div class="menuf"><img src="img/palakpaneer.jpg" class="menuimg">Palak Paneer
+                <div class="menutxt">A delicious vegetarian dish made with cubes of paneer cheese cooked in a creamy spinach-based sauce, enriched with cream and spices.</div>
+            </div>
+            <div class="menuf"><img src="img/naan.jpg" class="menuimg">Naan
+                <div class="menutxt">bread made from a dough of flour, water, and yeast, cooked in a traditional clay oven or tandoor, and served hot and fluffy.</div>
+            </div>
+        </div>
+
+        <div class="sep" id="jp"> 
+            <div class="menuf"><img src="img/sushi.jpg" class="menuimg">Sushi
+                <div class="menutxt">dish made with vinegared rice and a variety of ingredients such as fish, seafood, vegetables, and condiments.</div>
+            </div>
+            <div class="menuf"><img src="img/tempurasoba.jpg" class="menuimg">Tempura Soba
+                <div class="menutxt">Crispy battered shrimp and vegetables served with hot soba noodles and savory dipping sauce.</div>
+            </div>
+            <div class="menuf"><img src="img/ramen.jpg" class="menuimg">Tonkotsu Ramen
+                <div class="menutxt">Rich and savory pork broth served with thin noodles, tender slices of pork, bamboo shoots, nori, and a boiled egg.</div>
+            </div>
+            <div class="menuf"><img src="img/sashimi.jpg" class="menuimg">Sashimi
+                <div class="menutxt">Fresh, raw slices of premium-grade seafood, including tuna, salmon, yellowtail, and whitefish. Served with wasabi, soy sauce, and pickled ginger.</div>
+            </div> 
+            <div class="menuf"><img src="img/katsudon.jpg" class="menuimg">Katsudon
+                <div class="menutxt">Crispy fried pork cutlet and caramelized onions simmered in a sweet and savory broth made with soy sauce, mirin, and dashi, served over a bed of steaming hot rice and topped with a beaten egg.</div>
+            </div>
+        </div>
+        
+        <div class="sep" id="dr"> 
+            <div class="menuf"><img src="img/lassi.jpg" class="menuimg">Lassi
+                <div class="menutxt">made with fresh, creamy yogurt that's blended with ice, water, and sugar, and then flavored with cardamom, saffron, and other aromatic spices.</div>
+            </div>
+            <div class="menuf"><img src="img/strawberrysmo.jpg" class="menuimg">Strawberry Smoothie
+                <div class="menutxt">Fresh strawberries blended with creamy yogurt, milk or non-dairy milk, and a touch of honey or maple syrup for sweetness.</div>
+            </div>
+            <div class="menuf"><img src="img/matchalatte.jpg" class="menuimg">Iced-Matcha Latte
+                <div class="menutxt">A refreshing and energizing Japanese-inspired drink made with matcha powder, milk or a non-dairy milk alternative, and sweetened with honey or agave syrup.</div>
+            </div>
+            <div class="menuf"><img src="img/hotchocolate.jpg" class="menuimg">Hot Chocolate
+                <div class="menutxt">A rich and indulgent winter beverage made with melted chocolate or cocoa powder, milk, and a touch of vanilla extract for added flavor.</div>
+            </div> 
+            <div class="menuf"><img src="img/americano.jpg" class="menuimg">Americano
+                <div class="menutxt">A classic coffee beverage made by adding hot water to a shot of espresso, resulting in a bold and intense flavor.</div>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>

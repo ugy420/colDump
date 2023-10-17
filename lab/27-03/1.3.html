@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        h1,h2{
+            color:rgb(1, 1, 130);
+        }
+        form{
+            margin:auto;
+            width:500px;
+            padding:20px;
+            background-image: linear-gradient(to bottom,white,rgb(181, 181, 253));
+            color: rgb(1, 31, 186);
+        }
+        input[type]{
+            text-align: left;
+        }
+        label{
+            text-align:right;
+            display:inline-block;
+            width:150px;
+            padding:5px;
+        }
+        input[type=submit]{
+            background-color: green;
+            color: white;
+            border-color: darkgreen;
+            padding:3px;
+        }
+    </style>
+    </head>
+    <body>
+        <form>
+            <h1>Sign Up</h1>
+            <h2>It's free and anyone can join</h2>
+            <label>First Name:</label><input type="text" size="30"><br>
+            <label>Last Name:</label><input type="text" size="30"><br>
+            <label>Your Email:</label><input type="email" size="30"><br>
+            <label>New Password:</label><input type="password" size="30"><br>
+            <label>I am:</label>
+            <select>
+                <option>Female</option>
+                <option>Male</option>
+                <option selected>Select Sex</option>
+            </select><br>
+            <label>Birthday:</label>
+            <select>
+                <option>Month</option>
+            </select>
+            <select>
+                <option>Day</option>
+            </select>
+            <select>
+                <option>Year</option>
+            </select><br>
+            <label></label><input type="submit" value="Sign Up">
+        </form>
+    </body>
+</html>

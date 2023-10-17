@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form Red</title>
+    <style>
+
+        body{
+            font-family:sans-serif;
+            font-size:small;
+            color:azure;
+            background-color: rgb(133, 18, 83);
+        }
+        form{
+            padding-block: 15px;
+            padding-inline:100px;
+            width:fit-content;
+            margin:auto;
+            background-color: rgb(99, 7, 85);            
+        }
+        label{
+            padding-top:10px;
+        }
+        .txt{
+            width:130px;
+            display:inline-block;
+            text-align:left;
+        }
+        textarea{
+            width:165px;
+            font-size: small;
+            height:30px;
+        }
+        input[type=submit]{
+            width:325px;
+            font-weight: bold;
+            padding-block:5px;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name" class="txt">Name:</label><input type="text" id="name" placeholder="your name"><br>
+        <label for="em" class="txt">Email:</label><input type="email" id="em" placeholder="your email"><br>
+        <label for="pw" class="txt">Password:</label><input type="password" id="pw"><br>
+        <label for="ph" class="txt">Phone Number:</label><input type="tel" id="ph"><br>
+        <label class="txt">Gender:</label><label for="m" class="r">Male:</label><input type="radio"name="mf" id="m"><label for="f" class="r">Female:</label><input type="radio" name="mf" id="f">
+        <label for="ot" class="r">Other:</label><input type="radio" name="mf" id="ot"><br>
+        <label for="sel" class="txt">Language:</label>
+        <select id="sel">
+            <option>Select language</option>
+            <option>NOPE!!</option>
+        </select><br>
+        <label for="zi" class="txt">Zip Code:</label><input type="text" id="zi"><br>
+        <label for="ab" class="txt">About:</label><textarea id="ab" placeholder="Write about yourself..."></textarea><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

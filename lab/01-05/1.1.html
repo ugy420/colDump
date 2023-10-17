@@ -1,0 +1,27 @@
+<script>
+    var x = parseFloat(prompt("Enter a number: "));
+    var y = parseFloat(prompt("Enter another number: "));
+    var z = prompt("Enter operation (+ - * /): ");
+
+    switch(z){
+        case '+':
+            sum = x+y;
+            document.write(sum);
+            break;
+        case '-':
+            diff = x-y;
+            document.write(diff);
+            break;
+        case '*':
+            prod = x*y;
+            document.write(prod);
+            break;
+        case '/':
+            div = x/y;
+            document.write(div);
+            break;
+        default:
+            document.write("Valid operators are: + - * /");
+            break;
+    }
+</script>

@@ -1,0 +1,18 @@
+<script>
+    function arr(ara1, ara2){
+        araCon = ara1.concat(ara2); // .concat()
+        document.write(araCon + "<br>"); 
+
+        araCon2 = [].concat(ara1,ara2); // can merge multiple arrays
+        document.write(araCon2 + "<br>"); 
+
+        araSpread = [...ara1, ...ara2] // using spread operator
+        document.write(araSpread+ "<br>"); 
+
+        ara1.push(...ara2); // .push()
+        document.write(ara1); 
+    }
+    array1 = ["CST", "GCIT", "CNR", "SCE", "PCE"];
+    array2 = ["RTC", "NRC", "KGUMS"];
+    arr(array1, array2);
+</script>

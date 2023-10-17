@@ -1,0 +1,21 @@
+form{
+    width:600px;
+    margin:auto;
+    color:yellow;
+}
+#or{
+    background-color: orange;
+    padding:10px;
+}
+#or:not(.up){    
+    text-align:right;
+}
+.center{
+    background-color:rgb(1, 1, 41);
+}
+label:not(#gen){
+    text-align: right;
+    width:200px;
+    padding-top:10px;
+    display:inline-block;
+}

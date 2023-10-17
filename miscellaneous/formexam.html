@@ -1,0 +1,75 @@
+<html>
+<body>
+    <script type="text/javascript">
+        function check(){
+            var fn = document.f.fn.value;
+            if(fn==""){
+                alert("Please enter name!");
+            }
+        }
+    </script>
+    <style>
+        div.cl{
+            padding-bottom: 10px;
+        }
+        form{
+            padding:50px;
+            border-top-style:solid;
+            border-width: 30px;
+            border-color:red;
+            margin:auto;
+            width:500px;
+            background: green;
+        }
+        input[type=submit]{
+            padding:10px;
+            padding-inline: 30px;
+            background-color: aqua;
+            border-radius: 6px;
+        }
+        #top{
+            background-color: red;
+        }
+    </style>
+    <form name="f">
+        <fieldset>
+        <legend>Hello</legend>
+        <h1>Create a New Account</h1>
+        <div class="cl">It's quick and easy</div>
+        <div class="cl"><input type="text" placeholder="First name" name="fn"> <input type="text" placeholder="Last name"></div>
+        <div class="cl"><input type="email" placeholder="email"></div>
+        <div class="cl"><input type="password" placeholder="New password"></div>
+        <div class="bday">Birthday</div>
+        <div class="cl">
+            <select>
+                <option>Month</option>
+                <optgroup label="Select Month">
+                    <option>1</option>
+                    <option>12</option>
+                </optgroup>
+            </select> 
+            <select>
+                <option>Day</option>
+                <optgroup label="Select day">
+                    <option>1</option>
+                    <option>12</option>
+                </optgroup>
+            </select>
+            <select>
+                <option>Year</option>
+                <optgroup label="Select day">
+                    <option>1</option>
+                    <option>12</option>
+                </optgroup>
+            </select>
+        </div>
+        <div class="bday">Gender</div>
+        <div class="cl"><input type="radio" name="r">Female <input type="radio" name="r">Male <input type="radio" name="r">Custom</div>
+        <div><input type="checkbox"> By clicking Sign Up, you agree to our <u>Terms,Data and Policy and Cookies Policy</u></div>
+        <div>You may receive SMS Notification from</div>
+        <div class="cl">us and can opt out at any time</div>
+        <div><input type="submit" value="Sign Up" onclick="check()"></div>
+        </fieldset>
+    </form>
+</body> 
+</html>

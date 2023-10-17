@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        table{
+            background-color: rgb(223, 253, 248);
+            border-spacing: 7px;
+        }
+        input[type=date]{
+            width: 125px;
+        }
+        input[type=text]{
+            width: 125px;
+        }
+        input[type=password]{
+            width: 125px;
+        }
+        input[type=email]{
+            width: 125px;
+        }
+        input[type=tel]{
+            width: 125px;
+        }
+        input[type=submit]{
+            background-color: rgb(76, 208, 76);
+            padding: 12px;
+            color:white;
+            border: none;
+        }
+    </style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <b>Full Name*</b><br>
+                        <input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Password*</b><br>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Date of Birth</b><br>
+                    <input type="date">
+                </tr>
+                <tr>
+                    <td>
+                        <b>Gender</b> &nbsp;&nbsp;<input type="radio" name="r"> Female <input type="radio" name="r"> Male 
+                        &nbsp;&nbsp;&nbsp;<b>Interest</b>
+                        <select>
+                            <option>Cooking</option>
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>email</b><br>
+                        <input type="email" placeholder="Your email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Phone</b><br>
+                        <input type="tel" placeholder="Your Phone number">
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Select course(s)</b> <input type="checkbox"> Programming <input type="checkbox"> Data Structure <input type="checkbox"> Networks <input type="checkbox"> Database</td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea cols="70" rows="5" placeholder="Type your message"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit Here"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

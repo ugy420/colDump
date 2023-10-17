@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        form{
+            padding:10px;
+            background-color: rgb(216, 241, 226);
+            border-spacing: 7px;
+            margin:auto;
+            width:550px;
+        }
+        input[type=date]{
+            width: 125px;
+        }
+        input[type=text]{
+            width: 125px;
+        }
+        input[type=password]{
+            width: 125px;
+        }
+        input[type=email]{
+            width: 125px;
+        }
+        input[type=tel]{
+            width: 125px;
+        }
+        input[type=submit]{
+            background-color: rgb(76, 208, 76);
+            padding: 12px;
+            color:white;
+            border: none;
+        }
+        .b{
+            font-weight: bold;
+        }
+        #spc{
+            display:inline-block;
+            padding-top: 10px;
+        }
+    </style>
+    </head>
+    <body>
+        <form>
+            <label class="b">Full Name*</label><br>
+            <input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name"><br>
+            <label class="b">Password*</label><br>
+            <input type="password"><br>
+            <label class="b">Date of Birth</label><br>
+            <input type="date"><br>
+            <label class="b" id="spc">Gender</label><input type="radio" name="r"> Female <input type="radio" name="r"> Male 
+            <label class="b" style="padding-left: 25px;">Interest</label>
+                <select style="width:100px;">
+                    <option>Cooking</option>
+                </select><br>
+            <label class="b" id="spc">Email</label><br>
+            <input type="email" placeholder="Your email"><br>
+            <label class="b" id="spc">Phone</label><br>
+            <input type="tel" placeholder="Your Phone number"><br>
+            <label class="b">Select course(s)</label><input type="checkbox"> Programming <input type="checkbox"> Data Structure <input type="checkbox"> Networks <input type="checkbox"> Database<p>
+            <textarea cols="70" rows="5" placeholder="Type your message"></textarea><p>
+            <label></label><input type="submit" value="Submit Here">
+        </form>
+    </body>
+</html>

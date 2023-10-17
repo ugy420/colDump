@@ -1,0 +1,24 @@
+<html>
+<body>
+    <script>
+        function welldefined(herro){
+            var ran = prompt("Enter min range");
+            var ge = prompt("Enter max range");
+            var e = 0, o = 0;
+            for(i=ran;i<=ge;i++){
+                if(i%2==0){
+                    e++;
+                }
+                else{
+                    o++;
+                }
+                document.write(i+"\n");
+            }
+            document.write("<br>" + e + "\n" + o + "<br>");
+        }
+    </script>
+    <form>
+        <input type="submit" onclick="welldefined(777)">
+    </form>
+</body>
+</html>
