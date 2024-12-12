@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cpl" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="2_D_array.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="4b.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Character_Arrays_and_Strings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FILE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Function_no_arguments_no_return_value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Function_no_arguments_yes_return_value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Function_yes_arguments_no_return_value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Function_yes_arguments_yes_return_value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Just_for_align.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Pointer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sjgl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="alphabet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="array.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="array_to_function.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arrays_matrices.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="assignment/1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="assignment/13.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="assignment/16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="assignment/2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="assignment/20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="assignment/3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="assignment/4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="assignment/7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="assignment/8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="asterisk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="asterisk_.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="asterisk_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="balance.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="basic if.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="call_by_value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="circumference_yes_a_yes_rv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="do_while_loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dynamic_memory_allocation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="entire_array.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="even odd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="example.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fibonacci.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="for_loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="if_else.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 1/5_till_n.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 1/Multiplication_table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 1/Simple_Interest_Calculator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 1/age.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 1/circumference.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 1/maximum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 1/perimeter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 1/print_series.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 1/senior_or_not.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 1/vowel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 2/1_leap_year.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 2/2_vowel_switch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 2/3_min.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 2/4_positve_negative.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 2/5_even_odd _switch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 2/6_average.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 2/7_relate_int.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 2/8_bhutanese.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 3/0_practice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 3/1_print_natural_number.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 3/2_100-0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 3/3.5_multiplication_nested_for.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 3/3_multiplication_user_entered_max_min.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 3/4_perfect squares.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 3/5_even_odd_0-15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 3/6_sum_of_10_natural.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 3/7_1 over N.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 3/8_1 over odd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 4/1_n_factorail.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 4/2_SI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 4/3_multiplication of 7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 4/4_odd_even.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 4/5_asterisk_any_function.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 5/1_N_natural numbers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 5/2_multiplication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 5/3_factorial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 5/4_exponent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 5/5_print_series_10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 5/6_series_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 6/1_n_numbers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 6/2_smallest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 6/3_largest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 6/4_sp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 6/5_lp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 6/6_fl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 6/7_swap_array.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 6/8_arrToFnc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 6/9_add_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 7/1_char_string.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 7/2_reverse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 7/3_total.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 7/4_compare_strings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 7/5_arrange.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 8/11_structure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 8/12_fnc_rtrn_ptr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 8/1_add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 8/2_add_ref.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 8/3_max.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 8/4&amp;5_n_elements.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 8/6_swap_ref.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 8/7_factorial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 8/8_vowel_consonant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lab 8/9&amp;10_swap_array.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="max_of_two_numbers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="nested_for_loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="operator_switch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="operators.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="practice_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="question.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rcsc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="revision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="semend.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="structure.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="switch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_civ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tt2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="while_loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

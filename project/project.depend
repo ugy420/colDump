@@ -1,0 +1,625 @@
+# depslib dependency file v1.0
+1629886046 source:c:\users\user\desktop\new folder\project\main.c
+	<stdlib.h>
+
+1629889226 source:c:\users\user\desktop\new folder\project\untitled1.c
+	<stdio.h>
+
+1629888691 source:c:\users\user\desktop\new folder\project\age.c
+	<stdio.h>
+
+1629889161 source:c:\users\user\desktop\new folder\project\alphabet.c
+	<stdio.h>
+
+1630420098 source:c:\users\user\desktop\practical\project\age.c
+	<stdio.h>
+
+1630495056 source:c:\users\user\desktop\practical\project\alphabet.c
+
+1629890809 source:c:\users\user\desktop\practical\project\main.c
+	<stdlib.h>
+
+1630419904 source:c:\users\user\desktop\practical\project\perimeter.c
+	<stdio.h>
+
+1630493045 source:c:\users\user\desktop\practical\project\simple interest calculator.c
+	<stdio.h>
+
+1630465007 source:c:\users\user\desktop\practical\project\asterisk.c
+	<stdio.h>
+
+1630493658 source:c:\users\user\desktop\practical\project\cw.c
+	<stdio.h>
+
+1630551063 source:c:\users\user\desktop\practical\project\leap year.c
+	<stdio.h>
+
+1630497447 source:c:\users\user\desktop\practical\project\min.c
+	<stdio.h>
+
+1630498240 source:c:\users\user\desktop\practical\project\basic if.c
+	<stdio.h>
+
+1630499361 source:c:\users\user\desktop\practical\project\if else.c
+
+1631542895 source:c:\users\user\desktop\practical\project\vowel.c
+	<stdio.h>
+
+1637670754 source:c:\users\user\desktop\practical\project\operators.c
+	<stdio.h>
+
+1630553649 source:c:\users\user\desktop\practical\project\positve negative.c
+
+1631326916 source:c:\users\user\desktop\practical\project\even odd.c
+
+1631325917 source:c:\users\user\desktop\practical\project\average.c
+	<stdio.h>
+
+1631325926 source:c:\users\user\desktop\practical\project\balance.c
+
+1631327147 source:c:\users\user\desktop\practical\project\switch.c
+	<stdio.h>
+
+1631327485 source:c:\users\user\desktop\practical\project\even odd - switch.c
+	<stdio.h>
+
+1631328648 source:c:\users\user\desktop\practical\project\calculator - switch.c
+	<stdio.h>
+
+1631329864 source:c:\users\user\desktop\practical\project\whileloop.c
+
+1631332711 source:c:\users\user\desktop\practical\project\dowhileloop.c
+	<stdio.h>
+
+1631330837 source:c:\users\user\desktop\practical\project\forloop.c
+	<stdio.h>
+
+1631332699 source:c:\users\user\desktop\practical\project\nestedforloop.c
+	<stdio.h>
+
+1630420098 source:c:\users\user\desktop\practical\project\lab 1\age.c
+	<stdio.h>
+
+1633016814 source:c:\users\user\desktop\practical\project\lab 1\multiplication_table.c
+	<stdio.h>
+
+1630419904 source:c:\users\user\desktop\practical\project\lab 1\perimeter.c
+	<stdio.h>
+
+1631637333 source:c:\users\user\desktop\practical\project\calculator_switch.c
+
+1631332711 source:c:\users\user\desktop\practical\project\do_while_loop.c
+	<stdio.h>
+
+1631327485 source:c:\users\user\desktop\practical\project\even_odd _switch.c
+	<stdio.h>
+
+1631330837 source:c:\users\user\desktop\practical\project\for_loop.c
+	<stdio.h>
+
+1630499361 source:c:\users\user\desktop\practical\project\if_else.c
+
+1630493045 source:c:\users\user\desktop\practical\project\lab 1\simple_interest_calculator.c
+	<stdio.h>
+
+1630551063 source:c:\users\user\desktop\practical\project\leap_year.c
+	<stdio.h>
+
+1631543426 source:c:\users\user\desktop\practical\project\multiplication.c
+	<stdio.h>
+
+1630553649 source:c:\users\user\desktop\practical\project\positve_negative.c
+
+1632666350 source:c:\users\user\desktop\practical\project\while_loop.c
+	<stdio.h>
+
+1631543024 source:c:\users\user\desktop\practical\project\nested_for_loop.c
+	<stdio.h>
+
+1631543603 source:c:\users\user\desktop\practical\project\lab 1\print_series.c
+	<stdio.h>
+
+1631542895 source:c:\users\user\desktop\practical\project\lab 1\vowel.c
+	<stdio.h>
+
+1631543933 source:c:\users\user\desktop\practical\project\lab 1\circumference.c
+	<stdio.h>
+
+1631544208 source:c:\users\user\desktop\practical\project\lab 1\senior_or_not.c
+	<stdio.h>
+
+1631544667 source:c:\users\user\desktop\practical\project\lab 1\maximum.c
+	<stdio.h>
+
+1631545160 source:c:\users\user\desktop\practical\project\lab 1\5_till_n.c
+	<stdio.h>
+
+1631327485 source:c:\users\user\desktop\practical\project\lab 2\even_odd _switch.c
+	<stdio.h>
+
+1630551063 source:c:\users\user\desktop\practical\project\lab 2\leap_year.c
+	<stdio.h>
+
+1631627896 source:c:\users\user\desktop\practical\project\lab 2\min.c
+	<stdio.h>
+
+1631637290 source:c:\users\user\desktop\practical\project\lab 2\positve_negative.c
+	<stdio.h>
+
+1631638294 source:c:\users\user\desktop\practical\project\lab 2\average.c
+	<stdio.h>
+
+1631629901 source:c:\users\user\desktop\practical\project\lab 2\bhutanese_19.c
+	<stdio.h>
+
+1631637717 source:c:\users\user\desktop\practical\project\lab 2\vowel_switch.c
+	<stdio.h>
+	<stdio.h>
+
+1632045693 source:c:\users\user\desktop\practical\project\lab 3\practice.c
+	<stdio.h>
+
+1632252183 source:c:\users\user\desktop\practical\project\lab 3\print_natural_number.c
+	<stdio.h>
+
+1631706397 source:c:\users\user\desktop\practical\project\lab 3\100-0.c
+	<stdio.h>
+
+1633022001 source:c:\users\user\desktop\practical\project\lab 3\multiplication_user_entered_max_min.c
+	<stdio.h>
+
+1632297983 source:c:\users\user\desktop\practical\project\lab 3\sum_of_10_natural.c
+	<stdio.h>
+	<stdio.h>
+
+1632252094 source:c:\users\user\desktop\practical\project\lab 3\even_odd_0-15.c
+	<stdio.h>
+
+1631707471 source:c:\users\user\desktop\practical\project\untitled7.c
+	<stdio.h>
+
+1633021947 source:c:\users\user\desktop\practical\project\lab 3\multiplication_nested_for.c
+	<stdio.h>
+
+1631710997 source:c:\users\user\desktop\practical\project\lab 3\1 over n.c
+	<stdio.h>
+
+1631758602 source:c:\users\user\desktop\practical\project\example.c
+
+1639630651 source:c:\users\user\desktop\practical\project\asterisk_.c
+	<stdio.h>
+
+1631761391 source:c:\users\user\desktop\practical\project\asterisk_2.c
+
+1632761528 source:c:\users\user\desktop\practical\project\function_no_arguments_no_return_value.c
+	<stdio.h>
+
+1631897387 source:c:\users\user\desktop\practical\project\function_no_return_value_no_arguments.c
+	<stdio.h>
+
+1632309585 source:c:\users\user\desktop\practical\project\function_no_return_value_yes_arguments.c
+	<stdio.h>
+
+1632307225 source:c:\users\user\desktop\practical\project\function_yes_return_value_no_arguments.c
+	<stdio.h>
+
+1632309340 source:c:\users\user\desktop\practical\project\function_yes_return_value_yes_arguments.c
+	<stdio.h>
+
+1631987704 source:c:\users\user\desktop\practical\project\fibonacci_series.c
+	<stdio.h>
+
+1631707471 source:c:\users\user\desktop\practical\project\perfect squares.c
+	<stdio.h>
+
+1632043804 source:c:\users\user\desktop\practical\project\test.c
+
+1632045115 source:c:\users\user\desktop\practical\project\7_relate_int.c
+	<stdio.h>
+
+1632152328 source:c:\users\user\desktop\practical\project\lab 2\1_leap_year.c
+	<stdio.h>
+
+1632154591 source:c:\users\user\desktop\practical\project\lab 2\2_vowel_switch.c
+	<stdio.h>
+	<stdio.h>
+
+1632159872 source:c:\users\user\desktop\practical\project\lab 2\3_min.c
+	<stdio.h>
+
+1632160623 source:c:\users\user\desktop\practical\project\lab 2\4_positve_negative.c
+	<stdio.h>
+
+1632659670 source:c:\users\user\desktop\practical\project\lab 2\5_even_odd _switch.c
+	<stdio.h>
+
+1631638294 source:c:\users\user\desktop\practical\project\lab 2\6_average.c
+	<stdio.h>
+
+1632142481 source:c:\users\user\desktop\practical\project\lab 2\8_bhutanese.c
+	<stdio.h>
+
+1632050376 source:c:\users\user\desktop\practical\project\lab 2\7_relate_int.c
+	<stdio.h>
+
+1639633368 source:c:\users\user\desktop\practical\project\fibonacci.c
+	<stdio.h>
+
+1636871790 source:c:\users\user\desktop\practical\project\lab 4\1_n_factorail.c
+	<stdio.h>
+
+1632722570 source:c:\users\user\desktop\practical\project\lab 4\2_si.c
+	<stdio.h>
+
+1632307225 source:c:\users\user\desktop\practical\project\function_yes_arguments_no return value.c
+	<stdio.h>
+
+1632309585 source:c:\users\user\desktop\practical\project\function_yes_arguments_no_return_value.c
+	<stdio.h>
+
+1632760805 source:c:\users\user\desktop\practical\project\function_yes_arguments_yes_return_value.c
+	<stdio.h>
+
+1632310598 source:c:\users\user\desktop\practical\project\3_multiplication of 7.c
+	<stdio.h>
+
+1632560852 source:c:\users\user\desktop\practical\project\call_by_value.c
+	<stdio.h>
+
+1633024126 source:c:\users\user\desktop\practical\project\lab 4\4_odd_even.c
+	<stdio.h>
+
+1632561478 source:c:\users\user\desktop\practical\project\add_subtract_switch.c
+	<stdio.h>
+
+1632725174 source:c:\users\user\desktop\practical\project\lab 4\5_asterisk_any_function.c
+	<stdio.h>
+
+1633023356 source:c:\users\user\desktop\practical\project\lab 4\3_multiplication of 7.c
+	<stdio.h>
+
+1632661756 source:c:\users\user\desktop\practical\project\circumference.c
+	<stdio.h>
+
+1632661867 source:c:\users\user\desktop\practical\project\circumference_yes_a_yes_rv.c
+	<stdio.h>
+
+1632665485 source:c:\users\user\desktop\practical\project\max_of_two_numbers.c
+	<stdio.h>
+
+1637663464 source:c:\users\user\desktop\practical\project\operator_switch.c
+	<stdio.h>
+
+1632743027 source:c:\users\user\desktop\practical\project\count_negative_positive.c
+	<stdio.h>
+
+1632761546 source:c:\users\user\desktop\practical\project\function_no_arguments_yes_return_value.c
+	<stdio.h>
+
+1633068433 source:c:\users\user\desktop\practical\project\lab 5\1_n_natural numbers.c
+	<stdio.h>
+	<stdio.h>
+
+1632914920 source:c:\users\user\desktop\practical\project\lab 5\2_multiplication.c
+	<stdio.h>
+
+1634528039 source:c:\users\user\desktop\practical\project\lab 5\4_exponent.c
+	<stdio.h>
+	<stdio.h>
+
+1632915595 source:c:\users\user\desktop\practical\project\5_print_series_10.c
+	<stdio.h>
+
+1632916516 source:c:\users\user\desktop\practical\project\lab 5\5_print_series_10.c
+
+1632917137 source:c:\users\user\desktop\practical\project\lab 5\6_series_1.c
+	<stdio.h>
+
+1637671961 source:c:\users\user\desktop\practical\project\lab 5\3_factorial.c
+	<stdio.h>
+
+1637826898 source:c:\users\user\desktop\practical\project\array.c
+	<stdio.h>
+	<stdio.h>
+
+1632972744 source:c:\users\user\desktop\practical\project\array_ex_1.c
+
+1632974843 source:c:\users\user\desktop\practical\project\array_ex_1.1.c
+
+1633011740 source:c:\users\user\desktop\practical\project\test_1.c
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+
+1633021920 source:c:\users\user\desktop\practical\project\question.c
+
+1633024145 source:c:\users\user\desktop\practical\project\test_civ.c
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+
+1632045693 source:c:\users\user\desktop\practical\project\lab 3\0_practice.c
+	<stdio.h>
+
+1632252183 source:c:\users\user\desktop\practical\project\lab 3\1_print_natural_number.c
+	<stdio.h>
+
+1631706397 source:c:\users\user\desktop\practical\project\lab 3\2_100-0.c
+	<stdio.h>
+
+1633021947 source:c:\users\user\desktop\practical\project\lab 3\3.5_multiplication_nested_for.c
+	<stdio.h>
+
+1633022001 source:c:\users\user\desktop\practical\project\lab 3\3_multiplication_user_entered_max_min.c
+	<stdio.h>
+
+1631707471 source:c:\users\user\desktop\practical\project\lab 3\4_perfect squares.c
+	<stdio.h>
+
+1633024296 source:c:\users\user\desktop\practical\project\lab 3\5_even_odd_0-15.c
+	<stdio.h>
+
+1633025783 source:c:\users\user\desktop\practical\project\lab 3\6_sum_of_10_natural.c
+	<stdio.h>
+	<stdio.h>
+
+1639633852 source:c:\users\user\desktop\practical\project\lab 3\7_1 over n.c
+	<stdio.h>
+
+1633025732 source:c:\users\user\desktop\practical\project\lab 3\8_1 over odd.c
+	<stdio.h>
+
+1633068416 source:c:\users\user\desktop\practical\project\practice_1.c
+	<stdio.h>
+
+1634712814 source:c:\users\user\desktop\practical\project\array_to_function.c
+
+1633493301 source:c:\users\user\desktop\practical\project\entire_array.c
+
+1634837885 source:c:\users\user\desktop\practical\project\2_d_array.c
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+
+1633577528 source:c:\users\user\desktop\practical\project\2_d_array_yanr.c
+
+1633602209 source:c:\users\user\desktop\practical\project\other_class.c
+	<stdio.h>
+
+1633613522 source:c:\users\user\desktop\practical\project\4b.c
+	<stdio.h>
+
+1639626207 source:c:\users\user\desktop\practical\project\character_arrays_and_strings.c
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+
+1634641947 source:c:\users\user\desktop\practical\project\lab6.c
+	<stdio.h>
+	<stdio.h>
+
+1637826794 source:c:\users\user\desktop\practical\project\arrays_matrices.c
+	<stdio.h>
+	<stdio.h>
+
+1635136681 source:c:\users\user\desktop\practical\project\lab 6\1_n_numbers.c
+	<stdio.h>
+
+1634699542 source:c:\users\user\desktop\practical\project\2_smallest.c
+	<stdio.h>
+
+1635137019 source:c:\users\user\desktop\practical\project\lab 6\2_smallest.c
+	<stdio.h>
+
+1635137342 source:c:\users\user\desktop\practical\project\lab 6\3_largest.c
+	<stdio.h>
+
+1635137787 source:c:\users\user\desktop\practical\project\lab 6\4_sp.c
+	<stdio.h>
+
+1635138290 source:c:\users\user\desktop\practical\project\lab 6\5_lp.c
+	<stdio.h>
+
+1635139072 source:c:\users\user\desktop\practical\project\lab 6\6_fl.c
+	<stdio.h>
+
+1635148162 source:c:\users\user\desktop\practical\project\lab 6\7_swap_array.c
+	<stdio.h>
+
+1639586250 source:c:\users\user\desktop\practical\project\lab 6\8_arrtofnc.c
+	<stdio.h>
+
+1635153257 source:c:\users\user\desktop\practical\project\lab 6\9_add_3.c
+	<stdio.h>
+
+1636694088 source:c:\users\user\desktop\practical\project\pointer.c
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+
+1635181808 source:c:\users\user\desktop\practical\project\sjgl.c
+	<stdio.h>
+
+1637076812 source:c:\users\user\desktop\practical\project\lab 7\1_char_string.c
+	<stdio.h>
+	<string.h>
+
+1637076862 source:c:\users\user\desktop\practical\project\lab 7\2_reverse.c
+	<stdio.h>
+	<string.h>
+
+1639586417 source:c:\users\user\desktop\practical\project\lab 7\3_total.c
+	<stdio.h>
+	<string.h>
+
+1637077086 source:c:\users\user\desktop\practical\project\lab 7\4_compare_strings.c
+	<stdio.h>
+	<string.h>
+
+1639586513 source:c:\users\user\desktop\practical\project\lab 7\5_arrange.c
+	<stdio.h>
+	<string.h>
+
+1635499570 source:c:\users\user\desktop\practical\project\untitled1.c
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+
+1635950750 source:c:\users\user\desktop\practical\project\rcsc.c
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+
+1636185732 source:c:\users\user\desktop\practical\project\lab 8\1.c
+	<stdio.h>
+
+1639579468 source:c:\users\user\desktop\practical\project\tt2.c
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+
+1636186639 source:c:\users\user\desktop\practical\project\lab 8\2.c
+	<stdio.h>
+
+1636187091 source:c:\users\user\desktop\practical\project\lab 8\3.c
+	<stdio.h>
+
+1636191952 source:c:\users\user\desktop\practical\project\lab 8\4.c
+	<stdio.h>
+
+1636193032 source:c:\users\user\desktop\practical\project\lab 8\4&5.c
+	<stdio.h>
+
+1637076747 source:c:\users\user\desktop\practical\project\lab 8\6.c
+	<stdio.h>
+
+1636816616 source:c:\users\user\desktop\practical\project\dynamic_memory_allocation.c
+	<stdio.h>
+	<stdlib.h>
+
+1636892561 source:c:\users\user\desktop\practical\project\structure.c
+	<stdio.h>
+	<string.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+
+1637595850 source:c:\users\user\desktop\practical\project\just_for_align.c
+	<stdio.h>
+
+1636877186 source:c:\users\user\desktop\practical\project\lab 8\7.c
+	<stdio.h>
+
+1637078076 source:c:\users\user\desktop\practical\project\lab 8\8_vowel_consonant.c
+	<stdio.h>
+	<string.h>
+
+1637078122 source:c:\users\user\desktop\practical\project\lab 8\9&10_swap_array.c
+	<stdio.h>
+
+1639586554 source:c:\users\user\desktop\practical\project\lab 8\11_structure.c
+	<stdio.h>
+
+1637078148 source:c:\users\user\desktop\practical\project\lab 8\12_fnc_rtrn_ptr.c
+	<stdio.h>
+
+1637077343 source:c:\users\user\desktop\practical\project\lab 8\3_max.c
+	<stdio.h>
+
+1637077394 source:c:\users\user\desktop\practical\project\lab 8\4&5_n_elements.c
+	<stdio.h>
+
+1637077423 source:c:\users\user\desktop\practical\project\lab 8\6_swap_ref.c
+	<stdio.h>
+
+1639586681 source:c:\users\user\desktop\practical\project\lab 8\7_factorial.c
+	<stdio.h>
+
+1639586697 source:c:\users\user\desktop\practical\project\lab 8\1_add.c
+	<stdio.h>
+
+1639632965 source:c:\users\user\desktop\practical\project\lab 8\2_add_ref.c
+	<stdio.h>
+
+1639628160 source:c:\users\user\desktop\practical\project\file.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdio.h>
+
+1637597169 source:c:\users\user\desktop\practical\project\assignment\2.c
+	<stdio.h>
+
+1637681661 source:c:\users\user\desktop\practical\project\assignment\1.c
+	<stdio.h>
+
+1637681673 source:c:\users\user\desktop\practical\project\assignment\3.c
+	<stdio.h>
+
+1637662328 source:c:\users\user\desktop\practical\project\pq.c
+	<stdio.h>
+
+1637681789 source:c:\users\user\desktop\practical\project\assignment\4.c
+	<stdio.h>
+
+1637681768 source:c:\users\user\desktop\practical\project\assignment\7.c
+	<stdio.h>
+
+1639632648 source:c:\users\user\desktop\practical\project\assignment\16.c
+	<stdio.h>
+
+1637681908 source:c:\users\user\desktop\practical\project\assignment\13.c
+	<stdio.h>
+
+1637681894 source:c:\users\user\desktop\practical\project\assignment\8.c
+	<stdio.h>
+
+1637682002 source:c:\users\user\desktop\practical\project\assignment\20.c
+	<stdio.h>
+
+1639634429 source:c:\users\user\desktop\practical\project\revision.c
+	<stdio.h>
+	<string.h>
+
+1639585056 source:c:\users\user\desktop\practical\project\semend.c
+	<stdio.h>
+	<stdio.h>
+
+1639584608 source:c:\users\user\desktop\practical\project\sm.c
+	<stdio.h>
+
+1639634108 source:c:\users\user\desktop\practical\project\t.c
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<stdio.h>
+	<string.h>
+	<stdio.h>
+	<stdio.h>
+
