@@ -1,0 +1,16 @@
+table{
+    margin:auto;
+    border-spacing: 0;
+    width:500px;
+}
+
+th{
+    background-color: gray;
+    border-style: groove;
+    text-align: center;
+}
+
+td{
+    border-style: solid;
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+
+Welcome to the Investments in Indigenous community infrastructure Program. There are a total of 9037 projects throughout Canada. Please make a selection from the Menu below.
+
+> 1.All of Canada
+> 2.Alberta
+> 3.British Columbia
+> 4.Manitoba
+> 5.New Brunswick
+> 6.Newfoundland and Labrador
+> 7.Nova Scotia
+> 8.Ontario
+> 9.Prince Edward Island
+> 10.Quebec
+> 11.Saskatchewan
+> 12.Northwest Territories
+> 13.Nunavut
+> 14.Yukon
+> 15.Exit Program
+
+Please make a choice from the statistics below for Yukon: 
+> 1.Number of projects
+> 2.Percentage of all projects located in this province/territory
+> 3.Total number and percentage of Ongoing projects
+> 4.Total number and percentage of Completed projects
+> 5.All of the above statistics
+> 6.Return to main menu
+
+Number of Projects in Yukon: 109
+Percentage of all projects located in Yukon: 1.21%
+Total number of Ongoing Projects: 51 & Percentage: 46.79%
+Total number of Completed Projects: 58 & Percentage: 53.21%
+Number of Projects in Yukon: 109
+Percentage of all projects located in Yukon: 1.21%
+Total number of Ongoing Projects: 51 & Percentage: 46.79%
+Total number of Completed Projects: 58 & Percentage: 53.21%
+Exception Occurred, restarting program...
+-----------------------------------------------------------------------------
+
+Welcome to the Investments in Indigenous community infrastructure Program. There are a total of 9037 projects throughout Canada. Please make a selection from the Menu below.
+
+> 1.All of Canada
+> 2.Alberta
+> 3.British Columbia
+> 4.Manitoba
+> 5.New Brunswick
+> 6.Newfoundland and Labrador
+> 7.Nova Scotia
+> 8.Ontario
+> 9.Prince Edward Island
+> 10.Quebec
+> 11.Saskatchewan
+> 12.Northwest Territories
+> 13.Nunavut
+> 14.Yukon
+> 15.Exit Program
+
+Please make a choice from the statistics below for Alberta: 
+> 1.Number of projects
+> 2.Percentage of all projects located in this province/territory
+> 3.Total number and percentage of Ongoing projects
+> 4.Total number and percentage of Completed projects
+> 5.All of the above statistics
+> 6.Return to main menu
+
+Returning to menu...
+-----------------------------------------------------------------------------
+
+> 1.All of Canada
+> 2.Alberta
+> 3.British Columbia
+> 4.Manitoba
+> 5.New Brunswick
+> 6.Newfoundland and Labrador
+> 7.Nova Scotia
+> 8.Ontario
+> 9.Prince Edward Island
+> 10.Quebec
+> 11.Saskatchewan
+> 12.Northwest Territories
+> 13.Nunavut
+> 14.Yukon
+> 15.Exit Program
+
+The total number of projects in Canada: 9037
+The total number of Ongoing projects: 4236
+The total number of projects Completed: 4801
+The percentage of Completed Projects: 53.13%
+-----------------------------------------------------------------------------
+
+Please make a choice from the statistics below for Northwest Territories: 
+> 1.Number of projects
+> 2.Percentage of all projects located in this province/territory
+> 3.Total number and percentage of Ongoing projects
+> 4.Total number and percentage of Completed projects
+> 5.All of the above statistics
+> 6.Return to main menu
+
+Number of Projects in Northwest Territories: 0
+Percentage of all projects located in Northwest Territories: 0.0%
+Total number of Ongoing Projects: 0 & Percentage: 0.0%
+Total number of Completed Projects: 0 & Percentage: 0.0%
+Number of Projects in Northwest Territories: 0
+Percentage of all projects located in Northwest Territories: 0.0%
+Total number of Ongoing Projects: 0 & Percentage: 0.0%
+Total number of Completed Projects: 0 & Percentage: 0.0%
+Returning to menu...
+-----------------------------------------------------------------------------
+
+> 1.All of Canada
+> 2.Alberta
+> 3.British Columbia
+> 4.Manitoba
+> 5.New Brunswick
+> 6.Newfoundland and Labrador
+> 7.Nova Scotia
+> 8.Ontario
+> 9.Prince Edward Island
+> 10.Quebec
+> 11.Saskatchewan
+> 12.Northwest Territories
+> 13.Nunavut
+> 14.Yukon
+> 15.Exit Program
+

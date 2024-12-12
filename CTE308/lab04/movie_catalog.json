@@ -1,0 +1,30 @@
+{
+"movie_catalog":{
+    "movie":[
+        {
+            "Title": "Oppenheimer",
+            "Director": "Christopher Nolan",
+            "Release Year": "2023",
+            "Genre": "History",
+            "Price": "Nu. 250",
+            "IMDB Rating": 8.6
+        },
+        {
+            "Title": "El Camino",
+            "Director": "Vince Gilligan",
+            "Release Year": 2019,
+            "Genre": "Crime-Drama",
+            "Price": "Nu. 300",
+            "IMDB Rating": 7.3
+        },
+        {
+            "Title": "Lunana: A Yak in the Classroom",
+            "Director": "Pawo Choyning Dorji",
+            "Release Year": "2019",
+            "Genre": "Adventure/Comedy",
+            "Price": "Nu. 400",
+            "IMDB Rating": 7.4
+        }
+    ]
+}
+}

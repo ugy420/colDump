@@ -1,0 +1,264 @@
+CLASS: main
+METHOD: main
+IMPORT: none
+EXPORT: none
+	Project.readFile("file_name") // calling method to read file
+	
+END METHOD
+ENDCLASS main
+
+CLASS: Project
+	province[], beneficiary[], beneficiaryNum[];
+	assetClass[], name[], stage[], Location[];
+	
+	Location Location
+
+METHOD: readFile
+IMPORT: file_name (String)
+EXPORT: none
+
+	EraseFile() // calling METHOD to erase previous log file
+
+	rows = rowsN(file_Name) // calling METHOD to count rows
+
+	province = new String[rows]
+        beneficiary = new String[rows]
+        beneficiaryNum = new String[rows]
+        assetClass = new String[rows]
+        name = new String[rows]
+        stage = new String[rows]
+
+	theFile = OPENFILE file_name
+	lineNum = 0
+	READ line FROM theFile 
+	WHILENOT(theFile==endOfFile) 
+		IF LINE!=0
+			Process(line) // Process line content, skipping first row
+		ENDIF
+		lineNum = lineNum + 1
+		READ line FROM theFile // Read the next line
+	ENDWHILE
+	CLOSEFILE theFile // Close the file
+END readFile
+
+METHOD: rowsN
+IMPORT: file_Name
+EXPORT: rows (int)
+	theFile = OPENFILE fileName
+	READ line FROM theFile
+	rows = 0
+	WHILENOT(theFile==endOfFile)
+		row++	// increment row for every line in file
+	ENDWHILE
+	CLOSEFILE theFile
+	return row
+END rowsN
+
+METHOD: processLine
+IMPORT: line (String)
+EXPORT: none
+	splitLine = line.split // split the columns in the line
+	
+	latChk = splitLine[lat]     // where lat is index containing latitude 
+	lonChk = splitLine[lon]   // where lon is index containing longitude
+
+	IF (latChk >=-90 AND latChk <=90) AND (lonChk >=-180 AND lonChk <=180)
+		province[] = splitLine[prov]	// processing data from file and storing in correspoding arrays
+		beneficiary[] = splitLine[benef]
+            	beneficiaryNum[] = splitLine[benefNum]
+            	assetClass[] = splitLine[aseCl]
+            	name[] = splitLine[nm]
+            	stage[] = splitLine[stg]
+	ELSE
+		OUTPUT "invalid data"
+		EXIT PROGRAM
+	ENDIF
+END processLine
+
+METHOD: menu
+IMPORT: none
+EXPORT: none
+	str = "Displaying options, Enter choice: 1-15"
+	PrintAndLog(str)	// printing to user and writing in log file
+	choice = 0
+	WHILENOT(choice==15)
+		SWITCH(choice)
+			CASE 1:
+				cana()
+				BREAK
+			CASE 2:
+				oth("Alberta")
+				BREAK
+			CASE 3:
+                oth("British Columbia")
+                BREAK
+			CASE 4:
+				oth("Manitoba")
+				BREAK
+			CASE 5:
+				oth("New Brunswick")
+				BREAK
+			CASE 6:
+				oth("Newfoundland And Labrador")
+				BREAK
+			CASE 7:
+				oth("Nova Scotia")
+				BREAK
+			CASE 8:
+				oth("Ontario")
+				BREAK;
+			CASE 9:
+				oth("Prince Edward Island")
+				BREAK
+			CASE 10:
+				oth("Quebec")
+				BREAK
+			CASE 11:
+				oth("Saskatchewan")
+				BREAK
+			CASE 12:
+				oth("Northwest Territories")
+				BREAK
+			CASE 13:
+				oth("Nunavut")
+				BREAK
+			CASE 14:
+				oth("Yukon")
+				BREAK
+			CASE 15:
+				PrintAndLog("Program Exited")
+				BREAK
+			DEFAULT:
+				PrintAndLog("Choose 1-15")
+				BREAK
+		ENDSWITCH
+	ENDWHILE
+END menu
+
+METHOD: cana
+	tot = rows-1
+	ong = 0, com = 0
+	FOR i=1 TO province.LENGTH CHANGEBY 1
+		IF stage[i] equals "Ongoing"
+			Ong++
+		ELSE
+			COM++
+		ENDIF
+	ENDFOR
+	per = (float) com * 100 / tot
+
+	PrintAndLog(tot)
+	PrintAndLog(ong)
+	PrintAndLog(com)
+	PrintAndLog(per)
+END cana
+
+METHOD: oth
+IMPORT: province_name
+EXPORT: none
+	strOth = "Display choices for " + province_name
+	PrintAndLog(strOth)
+
+	WHILE(choice!=6)
+		SWITCH(choice)
+			CASE 1:
+				num = op1(prName)  //  number of projects
+				PrintAndLog(num);                   
+				BREAK
+			CASE 2:
+				op2(province_name)
+				BREAK
+			CASE 3:
+				op3(province_name)
+				BREAK
+			CASE 4:
+				op4(province_name)
+				BREAK
+			CASE 5:
+				prt = op1(province_name)
+				PrintAndLog(prt)
+				op2(province_name)
+				op3(province_name)
+				op4(province_name)
+				BREAK
+			CASE 6:
+				PrintAndLog(Returning to menu)
+				BREAK
+			DEFAULT:
+				PrintAndLog("Enter 1-6");
+				BREAK
+		ENDSWITCH
+	ENDWHILE
+END province_name
+
+METHOD: op1
+IMPORT: prvNm (String)
+EXPORT: cnt (int)
+	cnt = 0
+	FOR index = 0 TO province LENGTH CHANGEBY 1
+		IF province[index] equals prvNm
+			cnt++
+	 	ENDIF
+	ENDFOR
+	RETURN cnt
+END op1
+
+METHOD: op2
+IMPORT: prvNm 
+EXPORT: none
+	tot = lineNum - 1
+	perAll = (float) op1(prvNm)*100 / tot
+	PrintAndLog(perAll)
+END op2
+
+METHOD: op3
+IMPORT: prvNm
+EXPORT: none
+	cnOng = 0, perOng = 0
+	FOR i = 0 TO province LENGTH CHANGEBY 1
+		IF province[i] equals prvNm AND stage[i] equals "Ongoing"
+			cnOng++
+		ENDIF
+	ENDFOR
+	perOng = (float) cnOng*100 / op1(prvNm)
+	PrintAndLog(perOng)
+END op3
+
+METHOD: op4
+IMPORT: prvNm
+EXPORT: none
+	cnCmp = 0, perCmp = 0
+	FOR i = 0 TO province LENGTH CHANGEBY 1
+		IF province[i] equals prvNm AND stage[i] equals "Completed"
+			cnCmp++
+		ENDIF
+	ENDFOR
+	perOng = (float) cnCmp*100 / op1(prvNm)
+	PrintAndLog(perCmp)
+END op4
+
+METHOD: PrintAndLog
+IMPORT: txt
+EXPORT: none
+	OUTPUT txt	// output displayed to user
+
+	fileStrm = FileOutput("file.txt")
+	pWrite = WRITE TO fileStrm
+	pWrite.OUTPUT txt	// writing in log file
+END PrintAndLog
+
+METHOD: EraseFile
+	fileStrm = FileOutput("file.txt")
+	pWrite.OUTPUT ""
+END EraseFile
+
+ENDCLASS PROJECT
+
+CLASS: Location
+METHOD: none
+IMPORT: none
+EXPORT: none
+	latitude = null
+	longitude = null
+	coordinateSystem = null
+ENDCLASS Location

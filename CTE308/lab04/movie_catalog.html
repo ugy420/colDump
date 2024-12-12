@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <link rel="stylesheet" href="movie_catalog.css">
+  <div id="movie-list"></div>
+  <script>
+    const movieListDiv = document.getElementById('movie-list');
+    // Fetch the JSON data
+    fetch('movie_catalog.json')
+      .then(response => response.json()) // Parse the response as JSON
+      .then(data => {
+        const movies = data.movie_catalog.movie;
+
+        // Populate the HTML with movie details
+        movies.forEach(movie => {
+          const movieDiv = document.createElement('div');
+          movieDiv.classList.add('movie'); // giving css class
+
+          movieDiv.innerHTML = `
+            <h2>${movie.Title}</h2>
+            <p><strong>Director:</strong> ${movie.Director}</p>
+            <p><strong>Release Year:</strong> ${movie["Release Year"]}</p>
+            <p><strong>Genre:</strong> ${movie.Genre}</p>
+            <p><strong>Price:</strong> ${movie.Price}</p>
+            <p><strong>IMDB Rating:</strong> ${movie["IMDB Rating"]}</p>
+          `;
+          movieListDiv.appendChild(movieDiv); // appending
+        });
+      })
+  </script>
+</body>
+</html>

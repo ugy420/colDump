@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="item.xslt"?>
+<Item_catalog xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="item.xsd">
+   <Food_Item>
+      <Name>Watermelon</Name>
+      <Price>Nu.400</Price>
+      <Calories>1400 cal</Calories>
+   </Food_Item>
+   <Food_Item>
+      <Name>Apple</Name>
+      <Price>Nu.100</Price>
+      <Calories>50 cal</Calories>
+   </Food_Item>
+   <Food_Item>
+      <Name>Banana</Name>
+      <Price>Nu.250</Price>
+      <Calories>105 cal</Calories>
+   </Food_Item>
+</Item_catalog>

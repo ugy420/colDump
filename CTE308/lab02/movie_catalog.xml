@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movie_catalog SYSTEM "movie_catalog.dtd">
+<movie_catalog>
+    <movie>
+        <title>Oppenheimer</title>
+        <director>Christopher Nolan</director>
+        <release_year>2023</release_year>
+        <genre>History</genre>
+        <price>Nu.250</price>
+        <imdb_rating>8.6</imdb_rating>
+    </movie>
+    <movie>
+        <title>El Camino</title>
+        <director>Vince Gilligan</director>
+        <release_year>2019</release_year>
+        <genre>Crime-Drama</genre>
+        <price>Nu.300</price>
+        <imdb_rating>7.3</imdb_rating>
+    </movie>
+    <movie>
+        <title>Lunana: A Yak in the Classroom</title>
+        <director>Pawo Choyning Dorji</director>
+        <release_year>2019</release_year>
+        <genre>Adventure/Comedy</genre>
+        <price>Nu.400</price>
+        <imdb_rating>7.4</imdb_rating>
+    </movie>
+</movie_catalog>

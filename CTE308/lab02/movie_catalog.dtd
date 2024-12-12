@@ -1,0 +1,11 @@
+<!DOCTYPE movie
+[
+    <!ELEMENT movie_catalog (movie+)>
+    <!ELEMENT movie (title,director,release_year,genre,price,imdb_rating)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT director (#PCDATA)>
+    <!ELEMENT release_year (#PCDATA)>
+    <!ELEMENT genre (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT imdb_rating (#PCDATA)>
+]>
